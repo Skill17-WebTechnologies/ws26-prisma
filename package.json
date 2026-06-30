@@ -1,0 +1,17 @@
+{
+  "name": "ws26-prisma",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "db:push": "prisma db push"
+  },
+  "dependencies": {
+    "@prisma/adapter-mariadb": "7.3.0",
+    "@prisma/client": "7.3.0",
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "prisma": "7.3.0"
+  }
+}
