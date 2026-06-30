@@ -34,7 +34,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "~20.19.24",
     "@types/resolve": "1.20.6",
-    "archiver": "6.0.2",
+    "archiver": "8.0.0",
     "checkpoint-client": "1.1.33",
     "cli-truncate": "4.0.0",
     "empathic": "2.0.0",
