@@ -7,5 +7,5 @@ COPY . .
 RUN npx prisma generate
 COPY docker-entrypoint.sh /usr/local/bin/entrypoint
 RUN chmod +x /usr/local/bin/entrypoint
-EXPOSE 3000
+EXPOSE 80
 ENTRYPOINT ["entrypoint"]

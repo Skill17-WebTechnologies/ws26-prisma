@@ -7,7 +7,7 @@ const { PrismaMariaDb } = require('@prisma/adapter-mariadb')
 const adapter = new PrismaMariaDb(process.env.DATABASE_URL || 'mysql://root@localhost:3306/prisma')
 const prisma = new PrismaClient({ adapter })
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 
 async function getTasks() {
   try {

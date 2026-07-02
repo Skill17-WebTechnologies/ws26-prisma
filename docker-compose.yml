@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - "80:80"
     environment:
       DATABASE_URL: "mysql://prisma:prisma@db:3306/prisma"
     depends_on:
